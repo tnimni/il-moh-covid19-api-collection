@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "426ec5d6-2425-4523-98a5-977e1724dcd3",
+		"name": "il-moh-covid19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "il-moh-covid19-isoleted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.gov.il/api/action/datastore_search?resource_id=9eedd26c-019b-433a-b28b-efcc98de378d",
+					"protocol": "https",
+					"host": [
+						"data",
+						"gov",
+						"il"
+					],
+					"path": [
+						"api",
+						"action",
+						"datastore_search"
+					],
+					"query": [
+						{
+							"key": "resource_id",
+							"value": "9eedd26c-019b-433a-b28b-efcc98de378d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "il-moh-covid19-lab-results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.gov.il/api/action/datastore_search?resource_id=dcf999c1-d394-4b57-a5e0-9d014a62e046",
+					"protocol": "https",
+					"host": [
+						"data",
+						"gov",
+						"il"
+					],
+					"path": [
+						"api",
+						"action",
+						"datastore_search"
+					],
+					"query": [
+						{
+							"key": "resource_id",
+							"value": "dcf999c1-d394-4b57-a5e0-9d014a62e046"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "il-moh-covid19-tested-properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.gov.il/api/action/datastore_search?resource_id=d337959a-020a-4ed3-84f7-fca182292308",
+					"protocol": "https",
+					"host": [
+						"data",
+						"gov",
+						"il"
+					],
+					"path": [
+						"api",
+						"action",
+						"datastore_search"
+					],
+					"query": [
+						{
+							"key": "resource_id",
+							"value": "d337959a-020a-4ed3-84f7-fca182292308"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "il-moh-covid19-recovered-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://data.gov.il/api/action/datastore_search?resource_id=8455d49f-ce32-4f8f-b1d4-1d764660cca3",
+					"protocol": "https",
+					"host": [
+						"data",
+						"gov",
+						"il"
+					],
+					"path": [
+						"api",
+						"action",
+						"datastore_search"
+					],
+					"query": [
+						{
+							"key": "resource_id",
+							"value": "8455d49f-ce32-4f8f-b1d4-1d764660cca3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
